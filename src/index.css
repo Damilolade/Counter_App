@@ -1,0 +1,66 @@
+.counter-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #27ae60, #f39c12, #c0392b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.message {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 18px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.increase {
+  background-color: #27ae60;
+}
+.increase:hover {
+  background-color: #219150;
+}
+
+.reset {
+  background-color: #f39c12;
+}
+.reset:hover {
+  background-color: #d9820f;
+}
+
+.decrease {
+  background-color: #c0392b;
+}
+.decrease:hover {
+  background-color: #a83226;
+}
